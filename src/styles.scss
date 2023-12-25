@@ -1,0 +1,39 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+h1{
+  text-align: center;
+}
+body {
+  background-color: rgb(29, 28, 29);
+  margin: 0px;
+  color: rgb(236, 203, 232);
+  overflow-x: hidden;
+  text-align: justify;
+  width: cover;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #cb74b1;
+  background: #d8c5d2;
+}
+
+::selection {
+  color: #cb74b1;
+  background: #d8c5d2;
+}
+
+.fixed-component {
+  position: fixed;
+}
+
+a:link {
+  color: #cb74b1;
+}
+
+a:visited {
+  color: #85356b;
+}
+
+a:hover {
+  color: #d8c5d2;
+}

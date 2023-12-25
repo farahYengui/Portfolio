@@ -1,0 +1,45 @@
+<div id="skills" class="container">
+    <h1>SKILLS</h1>
+    <div id="education" class="container">
+        <ul class="formation">
+            <li [@fadeInOnEnter] [@fadeOutOnLeave]>
+                <h3>FRAMEWORKS</h3>
+                <div class="inline"
+                    *ngFor="let skill of ['Angular', 'Spring boot', 'Bootstrap', 'React Native', 'ASP.NET', 'ExpressJS']">
+                    <p>{{ skill }}</p>
+                </div>
+            </li>
+            <li>
+                <h3>PROGRAMMING LANGUAGES</h3>
+                <div *ngFor="let skill of ['HTML', 'CSS', 'JS', 'TS', 'Java', 'Python', 'PHP', 'SQL', 'UML']">
+                    <p>{{ skill }}</p>
+                </div>
+            </li>
+            <li>
+                <h3>DATABASE MANAGEMENT</h3>
+                <div *ngFor="let skill of ['MySQL', 'MongoDB']">
+                    <p>{{ skill }}</p>
+                </div>
+            </li>
+            <li>
+                <h3>TOOLS</h3>
+                <div
+                    *ngFor="let skill of ['IntelliJ', 'Postman', 'Visual Studio Code', 'Android Studio', 'Apache NetBeans', 'Git']">
+                    <p>{{ skill }}</p>
+                </div>
+            </li>
+            <li>
+                <h3>RELEVANT COURSEWORK</h3>
+                <div *ngFor="let skill of ['AGILE', 'Devops', 'Cloud', 'IOT', 'Sécurité', 'AI', 'Big Data', 'ISTQB']">
+                    <p>{{ skill }}</p>
+                </div>
+            </li>
+            <li>
+                <h3>LANGUAGES</h3>
+                <div *ngFor="let skill of ['English', 'French', 'Arabic']">
+                    <p>{{ skill }}</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

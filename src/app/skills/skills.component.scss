@@ -1,0 +1,50 @@
+#skills{
+    background-image: url("../../assets/Portfolio.png");
+    background-size: cover;
+    background-position: center;
+  background-attachment: fixed;
+    height: 500px;
+    color: black;
+}
+.container{
+    width: 100%;
+}
+
+.formation
+{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.formation-image:hover
+{
+    transform: translateY(10%);
+}
+li{
+    background-color: rgb(#d8c5d2,0.8);
+    border-radius: 10%;
+}
+@media screen and (max-width: 1200px){
+    .formation
+{
+    grid-template-columns: repeat(3,200px);
+}
+#skills{
+    height: 900px;
+}
+}
+@media screen and (max-width: 600px){
+    .formation
+{
+    grid-template-columns: repeat(2,200px);
+}
+#skills{
+    height: 1150px;
+}
+}

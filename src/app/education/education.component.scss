@@ -1,0 +1,72 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.diploma
+{
+    padding-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    text-align: center;
+    color: black;
+}
+
+.diploma div
+{
+    margin: 20px 5px;
+    border-radius: 10px;
+}
+
+.diploma .title
+{
+    text-align: center;
+    background-image: url("../../assets/Graduate.png");
+    background-size: 2000px;
+    align-items: center;
+    max-width:600px;
+}
+
+.diploma .title:hover
+{
+    background-size: 100%;
+}
+
+.diploma .title a
+{
+    color: rgb(49, 49, 58);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    align-items: center;
+    height: 100%;
+}
+
+.diploma .date
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.diploma .date:hover
+{
+    background-color: white;
+}
+
+.diploma .date a
+{
+    text-align: center;
+    color: black;
+    font-size: 1.1em;
+}
+.diploma .date p
+{
+    color: grey;
+    font-size: 0.9em;
+}

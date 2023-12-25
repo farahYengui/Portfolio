@@ -1,0 +1,43 @@
+nav
+{
+    position: fixed;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    right: 10px;
+    z-index: 999;
+}
+
+
+button:hover
+{
+background-color: rgb(#cb74b1,0.4);
+}
+
+button
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  border:none;
+  border-bottom: 1px solid white;
+  font-size: 0.9em;
+    width: 150px;
+    text-decoration: none;
+    transition: 0.4s;
+    color: white;
+    background-color: rgb(#cb74b1,0.2);
+}
+button:last-child
+{
+    border-bottom: none;
+}
+
+
+.active {
+    background-color: #cb74b1;
+    color: white;
+  }
+  

@@ -1,0 +1,80 @@
+
+
+button{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+}
+
+textarea, input{
+    border-radius: 10px;
+    width: 270px;
+}
+input{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #cb74b1;
+    border-radius: 4px;
+    width: 180px;
+}
+.formulaire
+{
+    flex: 1.2;
+    position: fixed;
+    left: 120px;
+    bottom: 5%;
+    height: 450px;
+    background-color: rgb(#cb74b1, 0.8);
+    box-shadow: 0px 10px 20px #49013d;
+    border-radius: 5px;
+    font-size: 0.9em;
+    width:300px;
+    display: none;
+    padding: 10px;
+    z-index: 99999999;
+    padding: 20px 10px 20px 30px;
+    color: black;
+    font-family: 'Pacifico';
+}
+h3{
+    text-align: center;
+}
+.contactContainer {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom:5%;
+    left:50px;
+    z-index: 99;
+    
+}
+.contactContainer:hover+ .formulaire{
+    display: inline-block;
+}
+.formulaire:hover{
+    display: inline-block;
+}
+
+#waves
+{
+    bottom: -125px;
+    position: absolute;
+    left: -180px;
+}
+#fleche_bulle
+{
+    position: absolute;
+    bottom: 10px;
+    left: -12px;
+}
+.inline{
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px [col-start]);
+    align-items: center;
+    
+    
+}

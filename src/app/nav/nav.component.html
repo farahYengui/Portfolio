@@ -1,0 +1,10 @@
+<nav *ngIf="isVisible">
+    <ul *ngIf="isVisible">
+    <button class="btn" [class.active]="currentRoute === '/home'" (click)="navigateTo('home')">ABOUT</button>
+    <button class="btn" [class.active]="currentRoute === '/education'" (click)="navigateTo('education')">EDUCATION</button>
+    <button class="btn" [class.active]="currentRoute === '/skills'" (click)="navigateTo('skills')">SKILLS</button>
+    <button class="btn" [class.active]="currentRoute === '/experiences'" (click)="navigateTo('experiences')">EXPERIENCES</button>
+    <button class="btn" [class.active]="currentRoute === '/projects'" (click)="navigateTo('projects')">PROJECTS</button>
+    <button class="btn" [class.active]="currentRoute === '/certifications'" (click)="navigateTo('certifications')">CERTIFICATIONS</button>
+</ul>
+</nav>
